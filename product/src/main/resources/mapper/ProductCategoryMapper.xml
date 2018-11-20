@@ -19,6 +19,14 @@
     from product_category
     where category_id = #{categoryId,jdbcType=INTEGER}
   </select>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from product_category
+    where category_id = #{categoryId,jdbcType=INTEGER}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from product_category
     where category_id = #{categoryId,jdbcType=INTEGER}

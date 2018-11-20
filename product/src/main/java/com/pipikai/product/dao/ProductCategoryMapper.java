@@ -11,6 +11,8 @@ public interface ProductCategoryMapper {
 
     ProductCategory selectByPrimaryKey(Integer categoryId);
 
+    ProductCategory selectAll();
+
     int updateByPrimaryKeySelective(ProductCategory record);
 
     int updateByPrimaryKey(ProductCategory record);
