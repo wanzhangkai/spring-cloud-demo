@@ -8,7 +8,7 @@ import lombok.Data;
  * Email: zhangkaiwan@qq.com
  */
 @Data
-public class ResultVo<T> {
+public class ResultVO<T> {
 
     private Integer code;
     private String msg;

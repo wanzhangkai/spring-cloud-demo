@@ -1,6 +1,8 @@
 package com.pipikai.product.dao;
 
 import com.pipikai.product.pojo.ProductCategory;
+import org.apache.ibatis.annotations.Mapper;
+
 
 public interface ProductCategoryMapper {
     int deleteByPrimaryKey(Integer categoryId);
@@ -12,6 +14,8 @@ public interface ProductCategoryMapper {
     ProductCategory selectByPrimaryKey(Integer categoryId);
 
     ProductCategory selectAll();
+
+    ProductCategory selectByCategoryType(Integer categoryType);
 
     int updateByPrimaryKeySelective(ProductCategory record);
 

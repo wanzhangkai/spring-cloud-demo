@@ -5,6 +5,7 @@ import com.pipikai.product.enums.ProductStatusEnum;
 import com.pipikai.product.pojo.ProductInfo;
 import com.pipikai.product.servece.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * 2018/11/20 22:59
  * Email: zhangkaiwan@qq.com
  */
+@Service
 public class ProductServiceImpl implements ProductService {
 
     @Autowired

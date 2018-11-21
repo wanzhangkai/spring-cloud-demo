@@ -12,7 +12,7 @@ import java.util.List;
  * Email: zhangkaiwan@qq.com
  */
 @Data
-public class ProductVo {
+public class ProductVO {
 
     @JsonProperty("name")
     private String categoryName;
@@ -21,6 +21,6 @@ public class ProductVo {
     private Integer categoryId;
 
     @JsonProperty("foods")
-    private List<ProductInfo> productInfoList;
+    private List<ProductInfoVO> productInfoList;
 
 }

@@ -1,6 +1,7 @@
 package com.pipikai.product.dao;
 
 import com.pipikai.product.pojo.ProductInfo;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
