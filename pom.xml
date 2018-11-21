@@ -12,6 +12,7 @@
     <modules>
         <module>eureka</module>
         <module>product</module>
+        <module>order</module>
     </modules>
 
     <name>springcloud-demo</name>
